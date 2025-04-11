@@ -1,0 +1,70 @@
+{
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "[javascript][typescript][json][yml][yaml][markdown][javascriptreact][typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml",
+    "editor.formatOnSave": true
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 120,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.exclude": {
+    "**/.idea": true,
+    "**/node_modules/": true,
+    "**/.cache/": true,
+    "**/dist/": true,
+    "**/.venv/": true,
+    "**/__pycache__/": true,
+    "**/.*_cache/": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/*.egg-info/": true,
+    "**/Thumbs.db": true
+  },
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.ignoreLegacyWarning": true,
+  "git.ignoreLimitWarning": true,
+  "git.ignoreRebaseWarning": true,
+  "git.openRepositoryInParentFolders": "never",
+  "git.postCommitCommand": "sync",
+  "git.pruneOnFetch": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.diagnosticsSource": "Pyright",
+  "python.terminal.activateEnvironment": false,
+  "search.exclude": {
+    "**/*.code-search": true,
+    "**/bower_components": true,
+    "**/uv.lock": true, 
+    "**/exports/": true,
+    "**/export/": true
+  },
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.untrustedFiles": "open",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "evenBetterToml.taplo.configFile.path": "/Users/andenacitelli/p/conflux/taplo.toml"
+}

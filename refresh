@@ -3,3 +3,4 @@
 cp ~/.zshrc .zshrc
 cp ~/.zprofile .zprofile
 cp ~/.p10k.zsh .p10k.zsh
+cp "/Users/kal/Library/Application Support/Code/User/settings.json" .vscode/user-settings.json
