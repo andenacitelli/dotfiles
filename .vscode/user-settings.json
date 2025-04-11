@@ -45,7 +45,6 @@
   "git.openRepositoryInParentFolders": "never",
   "git.postCommitCommand": "sync",
   "git.pruneOnFetch": true,
-  "github.copilot.editor.enableAutoCompletions": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "python.analysis.autoFormatStrings": true,
   "python.analysis.autoImportCompletions": true,
@@ -54,7 +53,7 @@
   "search.exclude": {
     "**/*.code-search": true,
     "**/bower_components": true,
-    "**/uv.lock": true, 
+    "**/uv.lock": true,
     "**/exports/": true,
     "**/export/": true
   },
@@ -66,5 +65,6 @@
   "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
-  "evenBetterToml.taplo.configFile.path": "/Users/andenacitelli/p/conflux/taplo.toml"
+  "evenBetterToml.taplo.configFile.path": "/Users/kal/p/conflux/taplo.toml",
+  "redhat.telemetry.enabled": false
 }

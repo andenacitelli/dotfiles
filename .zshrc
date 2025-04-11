@@ -20,11 +20,26 @@ plugins=(
 )
 source "$ZSH/oh-my-zsh.sh"
 
-#? Brew/Mise
-eval "$(~/.local/bin/mise activate zsh)"
-
 #? Shell
+[[ -f ~/.zshrc.secrets.sh ]] && source ~/.zshrc.secrets.sh
 alias sz="source ~/.zprofile && source ~/.zshrc"
+alias secrets="code -r ~/.zshrc.secrets.sh"
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+#? Brew/Mise 
+eval "$(~/.local/bin/mise activate zsh)"  
+alias mi="mise install"
+
+# pnpm
+export PNPM_HOME="/Users/kal/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+#? Python
+alias uvs="uv sync"
+alias plint="uv run ruff check . --fix && uv run pyright ."
+
+#? Final p10k Setup (needs to run after any console)
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
